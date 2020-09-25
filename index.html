@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<link rel="stylesheet" href="/css/background_styles.css">
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" defer></script>
+      <title>Blendify</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 70px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #DBDBDB;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:  white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+   <div id="progressbar"></div>
+   <div id="scrollPath"></div>
+   <section>
+
+<div class="header">
+  <h1 class="text" data-text="Blendify">Blendify</h1>  
+  <p>Blendify on top</p>
+</div>
+
+ <nav class="navbar">
+        <div class="brand-title">Blendify</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="espagnol">Espagnol</a></li>
+            <li><a href="coolstuff">Cool stuff</a></li>
+            <li><a href="lotsofjunk">Lots of junk</a></li>
+          </ul>
+        </div>
+      </nav>
+       <style>
+
+</style>
+
+
+<div class="row">
+  <div class="side">
+    <h2>blendify</h2>
+    <h5>blendify</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <h3>blendify</h3>
+    <p>blendify</p>
+     <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+  </div>
+  <div class="main">
+    <h2>blendify</h2>
+    <img src="pro2.jpg" alt="Los pronombres personales" style="height:410px;">
+    <h2>Los example</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>blendify</p>
+    <p>blendify</p>
+    <br>
+    <h2>blendify</h2>
+    <h5>blendify</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>blendify</p>
+    <p>espagnol</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>sus</h2>
+</div>
+</section>
+</body>
+</html>
